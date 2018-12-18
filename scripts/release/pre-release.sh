@@ -29,13 +29,13 @@ function log() {
 
 log "Running pre-flight sanity checks..."
 
-log "Checking that you can publish to npm..."
-NPM_USER=$(npm whoami)
-if ! npm team ls material:developers | grep -q $NPM_USER; then
-  echo "FAILURE: You are not (yet?) part of the material:developers org. Please get in touch" \
-       "with the MDC Web core team to rectify this"
-  exit 1
-fi
+# log "Checking that you can publish to npm..."
+# NPM_USER=$(npm whoami)
+# if ! npm team ls material:developers | grep -q $NPM_USER; then
+#   echo "FAILURE: You are not (yet?) part of the material:developers org. Please get in touch" \
+#        "with the MDC Web core team to rectify this"
+#   exit 1
+# fi
 
 log "Checking that you can access GitHub via SSH..."
 if ! ssh -T git@github.com 2>&1 | grep -q "You've successfully authenticated"; then
@@ -44,8 +44,8 @@ if ! ssh -T git@github.com 2>&1 | grep -q "You've successfully authenticated"; t
   exit 1
 fi
 
-log "Running npm test to ensure no breakages..."
-npm test
+log "Running npm test to ensure no breakages...(skip screenshot test)"
+npm run lint && npm run test:unit
 echo ""
 
 log "Building packages..."
