@@ -23,7 +23,7 @@
 import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import withRipple from '@material/react-ripple';
+import withRipple from 'closure-react-ripple/index';
 
 export const Button = (props) => {
   const {
@@ -83,6 +83,9 @@ Button.propTypes = {
   children: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 Button.defaultProps = {
   raised: false,
   unelevated: false,

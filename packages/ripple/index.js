@@ -24,7 +24,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import {MDCRippleFoundation, util} from '@material/ripple/dist/mdc.ripple';
+import MDCRippleFoundation from '@material/ripple/foundation';
+import util from '@material/ripple/util';
 
 const withRipple = (WrappedComponent) => {
   class RippledComponent extends Component {
@@ -233,6 +234,9 @@ const withRipple = (WrappedComponent) => {
     onBlur: PropTypes.func,
   }, WrappedComponent.propTypes);
 
+  /**
+   * @nocollapse
+   */
   WrappedComponent.defaultProps = Object.assign({
     unbounded: false,
     disabled: false,
