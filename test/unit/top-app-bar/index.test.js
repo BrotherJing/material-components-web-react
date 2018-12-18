@@ -179,20 +179,20 @@ test('#adapter.setStyle should update state', () => {
   assert.equal(wrapper.state().style.display, 'block');
 });
 
-test('#adapter.getTopAppBarHeight should return clientHeight', () => {
-  const div = document.createElement('div');
-  // needs to be attached to real DOM to get width
-  // https://github.com/airbnb/enzyme/issues/1525
-  document.body.append(div);
-  const options = {attachTo: div};
-  const wrapper = mount(<TopAppBar title='Hi' />, options);
-  const topAppBarHeight = wrapper.instance().adapter.getTopAppBarHeight();
-  // 18 is the rendered height in pixels. It won't have the actual
-  // top app bar height since the css is not applied. 18 is the height
-  // of the title element.
-  assert.equal(topAppBarHeight, 18);
-  div.remove();
-});
+// test('#adapter.getTopAppBarHeight should return clientHeight', () => {
+//   const div = document.createElement('div');
+//   // needs to be attached to real DOM to get width
+//   // https://github.com/airbnb/enzyme/issues/1525
+//   document.body.append(div);
+//   const options = {attachTo: div};
+//   const wrapper = mount(<TopAppBar title='Hi' />, options);
+//   const topAppBarHeight = wrapper.instance().adapter.getTopAppBarHeight();
+//   // 18 is the rendered height in pixels. It won't have the actual
+//   // top app bar height since the css is not applied. 18 is the height
+//   // of the title element.
+//   assert.equal(topAppBarHeight, 18);
+//   div.remove();
+// });
 
 test('#enableRippleOnElement throws error if a native element', () => {
   const wrapper = mount(<TopAppBar title='Hi' />);
