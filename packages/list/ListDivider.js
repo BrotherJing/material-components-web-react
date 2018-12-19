@@ -45,6 +45,9 @@ ListDivider.propTypes = {
   role: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 ListDivider.defaultProps = {
   className: '',
   tag: 'li',

@@ -23,7 +23,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCTextFieldIconFoundation} from '@material/textfield/dist/mdc.textfield';
+import MDCTextFieldIconFoundation from '@material/textfield/icon/foundation';
 
 export default class Icon extends React.Component {
 
@@ -90,6 +90,9 @@ Icon.propTypes = {
   disabled: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 Icon.defaultProps = {
   disabled: false,
 };

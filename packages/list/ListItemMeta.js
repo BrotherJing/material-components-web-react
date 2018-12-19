@@ -59,6 +59,9 @@ ListItemMeta.propTypes = {
   ]),
 };
 
+/**
+ * @nocollapse
+ */
 ListItemMeta.defaultProps = {
   tabbableOnListItemFocus: false,
   className: '',

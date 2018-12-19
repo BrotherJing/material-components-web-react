@@ -23,7 +23,7 @@
 import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import {MDCLineRippleFoundation} from '@material/line-ripple/dist/mdc.lineRipple';
+import MDCLineRippleFoundation from '@material/line-ripple/foundation';
 
 export default class LineRipple extends Component {
 
@@ -120,6 +120,9 @@ LineRipple.propTypes = {
   rippleCenter: PropTypes.number,
 };
 
+/**
+ * @nocollapse
+ */
 LineRipple.defaultProps = {
   className: '',
   style: {},

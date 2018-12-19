@@ -48,6 +48,9 @@ ListGroupSubheader.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 ListGroupSubheader.defaultProps = {
   className: '',
   children: '',

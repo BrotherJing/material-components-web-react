@@ -23,7 +23,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCNotchedOutlineFoundation} from '@material/notched-outline/dist/mdc.notchedOutline';
+import MDCNotchedOutlineFoundation from '@material/notched-outline/foundation';
 
 export default class NotchedOutline extends React.Component {
 
@@ -122,6 +122,9 @@ NotchedOutline.propTypes = {
   notchWidth: PropTypes.number,
 };
 
+/**
+ * @nocollapse
+ */
 NotchedOutline.defaultProps = {
   className: '',
   isRtl: false,

@@ -24,7 +24,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import {MDCListFoundation} from '@material/list/dist/mdc.list';
+import MDCListFoundation from '@material/list/foundation';
 
 import ListItem from './ListItem';
 import ListItemGraphic from './ListItemGraphic';
@@ -293,6 +293,9 @@ List.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 List.defaultProps = {
   className: '',
   nonInteractive: false,

@@ -24,11 +24,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import TopAppBarFixedAdjust from './FixedAdjust';
-import {
-  MDCFixedTopAppBarFoundation,
-  MDCTopAppBarFoundation,
-  MDCShortTopAppBarFoundation,
-} from '@material/top-app-bar/dist/mdc.topAppBar';
+import MDCFixedTopAppBarFoundation from '@material/top-app-bar/fixed/foundation';
+import MDCTopAppBarFoundation from '@material/top-app-bar/standard/foundation';
+import MDCShortTopAppBarFoundation from '@material/top-app-bar/short/foundation';
 
 export default class TopAppBar extends React.Component {
 
@@ -233,6 +231,9 @@ TopAppBar.propTypes = {
   ]),
 };
 
+/**
+ * @nocollapse
+ */
 TopAppBar.defaultProps = {
   actionItems: null,
   className: '',

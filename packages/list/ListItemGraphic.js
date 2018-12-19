@@ -49,6 +49,9 @@ ListItemGraphic.propTypes = {
   graphic: PropTypes.element,
 };
 
+/**
+ * @nocollapse
+ */
 ListItemGraphic.defaultProps = {
   tabbableOnListItemFocus: false,
   className: '',

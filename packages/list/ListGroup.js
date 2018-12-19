@@ -45,6 +45,9 @@ ListGroup.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 ListGroup.defaultProps = {
   className: '',
   children: null,

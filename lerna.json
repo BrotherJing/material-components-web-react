@@ -9,7 +9,13 @@
   },
   "packages": [
     "packages/button",
-    "packages/ripple"
+    "packages/floating-label",
+    "packages/line-ripple",
+    "packages/list",
+    "packages/notched-outline",
+    "packages/ripple",
+    "packages/text-field",
+    "packages/top-app-bar"
   ],
-  "version": "0.7.3"
+  "version": "0.7.6"
 }

@@ -23,7 +23,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCTextFieldHelperTextFoundation} from '@material/textfield/dist/mdc.textfield';
+import MDCTextFieldHelperTextFoundation from '@material/textfield/helper-text/foundation';
 
 export default class HelperText extends React.Component {
 
@@ -120,6 +120,9 @@ HelperText.propTypes = {
   'validation': PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 HelperText.defaultProps = {
   'aria-hidden': false,
   'children': null,

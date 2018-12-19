@@ -23,14 +23,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCTextFieldFoundation} from '@material/textfield/dist/mdc.textfield';
+import MDCTextFieldFoundation from '@material/textfield/foundation';
 
 import Input from './Input';
 import Icon from './icon';
 import HelperText from './helper-text';
-import FloatingLabel from '@material/react-floating-label';
-import LineRipple from '@material/react-line-ripple';
-import NotchedOutline from '@material/react-notched-outline';
+import FloatingLabel from 'closure-react-floating-label/index';
+import LineRipple from 'closure-react-line-ripple/index';
+import NotchedOutline from 'closure-react-notched-outline/index';
 
 class TextField extends React.Component {
   constructor(props) {
@@ -371,6 +371,9 @@ TextField.propTypes = {
   'trailingIcon': PropTypes.element,
 };
 
+/**
+ * @nocollapse
+ */
 TextField.defaultProps = {
   className: '',
   dense: false,

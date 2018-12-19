@@ -23,7 +23,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCFloatingLabelFoundation} from '@material/floating-label/dist/mdc.floatingLabel';
+import MDCFloatingLabelFoundation from '@material/floating-label/foundation';
 
 export default class FloatingLabel extends React.Component {
 
@@ -131,6 +131,9 @@ FloatingLabel.propTypes = {
   float: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 FloatingLabel.defaultProps = {
   className: '',
   handleWidthChange: () => {},

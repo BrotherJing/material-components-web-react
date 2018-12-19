@@ -122,6 +122,9 @@ ListItem.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 ListItem.defaultProps = {
   className: '',
   classNamesFromList: [],

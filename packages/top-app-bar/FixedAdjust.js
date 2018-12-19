@@ -48,8 +48,11 @@ FixedAdjust.propTypes = {
   className: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 FixedAdjust.defaultProps = {
-  tag: 'main',
+  tag: 'div',
   className: '',
 };
 
