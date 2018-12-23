@@ -23,7 +23,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCMenuSurfaceFoundation, Corner} from '@material/menu-surface';
+import MDCMenuSurfaceFoundation from '@material/menu-surface/foundation';
+import Corner from '@material/menu-surface/constants';
 
 class MenuSurface extends React.Component {
 
@@ -278,6 +279,9 @@ MenuSurface.propTypes = {
   fixed: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 MenuSurface.defaultProps = {
   className: '',
   styles: {},

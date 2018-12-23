@@ -85,6 +85,9 @@ Media.propTypes = {
   style: PropTypes.object,
 };
 
+/**
+ * @nocollapse
+ */
 Media.defaultProps = {
   className: '',
   contentClassName: '',

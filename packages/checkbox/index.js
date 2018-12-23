@@ -23,8 +23,8 @@
 import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import {MDCCheckboxFoundation} from '@material/checkbox/dist/mdc.checkbox';
-import withRipple from '@material/react-ripple';
+import MDCCheckboxFoundation from '@material/checkbox/foundation';
+import withRipple from 'closure-react-ripple';
 
 import NativeControl from './NativeControl';
 
@@ -177,6 +177,9 @@ Checkbox.propTypes = {
   unbounded: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 Checkbox.defaultProps = {
   checked: false,
   className: '',

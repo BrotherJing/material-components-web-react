@@ -19,6 +19,9 @@ const typographyHOC = (options) => {
     tag: PropTypes.string,
   };
 
+  /**
+   * @nocollapse
+   */
   Typography.defaultProps = {
     className: '',
     tag,

@@ -46,6 +46,9 @@ IconToggle.propTypes = {
   isOn: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 IconToggle.defaultProps = {
   children: '',
   className: '',

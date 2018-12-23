@@ -25,6 +25,9 @@ DrawerSubTitle.propTypes = {
   className: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 DrawerSubTitle.defaultProps = {
   tag: 'h6',
   className: '',

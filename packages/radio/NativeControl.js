@@ -46,6 +46,9 @@ NativeControl.propTypes = {
   rippleActivatorRef: PropTypes.object,
 };
 
+/**
+ * @nocollapse
+ */
 NativeControl.defaultProps = {
   className: '',
   rippleActivatorRef: null,

@@ -24,7 +24,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import {MDCTabScrollerFoundation, util} from '@material/tab-scroller/dist/mdc.tabScroller';
+import MDCTabScrollerFoundation from '@material/tab-scroller/foundation';
+import * as util from '@material/tab-scroller/util';
 
 const convertDashToCamelCase = (propName) => propName.replace(/-(\w)/g, (_, v) => v.toUpperCase());
 
@@ -221,6 +222,9 @@ TabScroller.propTypes = {
   onTransitionEnd: PropTypes.func,
 };
 
+/**
+ * @nocollapse
+ */
 TabScroller.defaultProps = {
   alignStart: false,
   alignEnd: false,

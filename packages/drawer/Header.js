@@ -25,6 +25,9 @@ DrawerHeader.propTypes = {
   className: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 DrawerHeader.defaultProps = {
   tag: 'div',
   className: '',

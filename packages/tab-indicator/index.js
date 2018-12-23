@@ -24,10 +24,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import {
-  MDCFadingTabIndicatorFoundation,
-  MDCSlidingTabIndicatorFoundation,
-} from '@material/tab-indicator/dist/mdc.tabIndicator';
+import MDCFadingTabIndicatorFoundation from '@material/tab-indicator/fading-foundation';
+import MDCSlidingTabIndicatorFoundation from '@material/tab-indicator/sliding-foundation';
 
 export default class TabIndicator extends Component {
   tabIndicatorElement_ = React.createRef();
@@ -167,6 +165,9 @@ TabIndicator.propTypes = {
   previousIndicatorClientRect: PropTypes.object,
 };
 
+/**
+ * @nocollapse
+ */
 TabIndicator.defaultProps = {
   active: false,
   className: '',

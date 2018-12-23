@@ -58,6 +58,9 @@ ActionIcons.propTypes = {
   children: PropTypes.node,
 };
 
+/**
+ * @nocollapse
+ */
 ActionIcons.defaultProps = {
   className: '',
   children: null,

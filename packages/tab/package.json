@@ -1,5 +1,5 @@
 {
-  "name": "@material/react-tab",
+  "name": "closure-react-tab",
   "version": "0.7.1",
   "description": "Material Components React Tab",
   "license": "MIT",
@@ -16,8 +16,8 @@
     "url": "https://github.com/material-components/material-components-web-react.git"
   },
   "dependencies": {
-    "@material/react-ripple": "^0.7.1",
-    "@material/react-tab-indicator": "^0.7.1",
+    "closure-react-ripple": "^0.7.1",
+    "closure-react-tab-indicator": "^0.7.1",
     "@material/tab": "^0.41.0",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.1",

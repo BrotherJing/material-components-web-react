@@ -23,7 +23,7 @@
 import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import {MDCChipSetFoundation} from '@material/chips';
+import MDCChipSetFoundation from '@material/chips/chip-set/foundation';
 
 import ChipCheckmark from './ChipCheckmark';
 
@@ -174,6 +174,9 @@ ChipSet.propTypes = {
   children: PropTypes.node,
 };
 
+/**
+ * @nocollapse
+ */
 ChipSet.defaultProps = {
   className: '',
   selectedChipIds: [],

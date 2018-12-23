@@ -48,6 +48,9 @@ NativeControl.propTypes = {
   rippleActivatorRef: PropTypes.object,
 };
 
+/**
+ * @nocollapse
+ */
 NativeControl.defaultProps = {
   checked: false,
   disabled: false,

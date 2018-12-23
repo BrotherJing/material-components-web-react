@@ -24,7 +24,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import withRipple from '@material/react-ripple';
+import withRipple from 'closure-react-ripple';
 
 export class Fab extends React.Component {
 
@@ -102,6 +102,9 @@ Fab.propTypes = {
   initRipple: PropTypes.func,
 };
 
+/**
+ * @nocollapse
+ */
 Fab.defaultProps = {
   mini: false,
   icon: null,

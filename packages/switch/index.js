@@ -23,7 +23,7 @@
 import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import {MDCSwitchFoundation} from '@material/switch/dist/mdc.switch';
+import MDCSwitchFoundation from '@material/switch/foundation';
 
 import ThumbUnderlay from './ThumbUnderlay';
 import NativeControl from './NativeControl';
@@ -132,6 +132,9 @@ Switch.propTypes = {
   nativeControlId: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 Switch.defaultProps = {
   checked: false,
   className: '',

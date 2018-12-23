@@ -23,8 +23,8 @@
 import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import withRipple from '@material/react-ripple';
-import {MDCIconButtonToggleFoundation} from '@material/icon-button/dist/mdc.iconButton';
+import withRipple from 'closure-react-ripple';
+import MDCIconButtonToggleFoundation from '@material/icon-button/foundation';
 import IconToggle from './IconToggle';
 
 const {strings} = MDCIconButtonToggleFoundation;
@@ -116,6 +116,9 @@ IconButtonBase.propTypes = {
   unbounded: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 IconButtonBase.defaultProps = {
   children: '',
   className: '',

@@ -23,8 +23,8 @@
 import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import withRipple from '@material/react-ripple';
-import {MDCChipFoundation} from '@material/chips/dist/mdc.chips';
+import withRipple from 'closure-react-ripple';
+import MDCChipFoundation from '@material/chips/chip/foundation';
 
 export class Chip extends Component {
   chipElement_ = null;
@@ -214,6 +214,9 @@ Chip.propTypes = {
   computeBoundingRect: PropTypes.func,
 };
 
+/**
+ * @nocollapse
+ */
 Chip.defaultProps = {
   label: '',
   className: '',

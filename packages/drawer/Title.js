@@ -24,6 +24,9 @@ DrawerTitle.propTypes = {
   className: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 DrawerTitle.defaultProps = {
   tag: 'h3',
   className: '',

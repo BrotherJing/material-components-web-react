@@ -1,5 +1,5 @@
 {
-  "name": "@material/react-material-icon",
+  "name": "closure-react-material-icon",
   "version": "0.7.1",
   "description": "Material Components React Material Icon",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "url": "https://github.com/material-components/material-components-web-react.git"
   },
   "dependencies": {
-    "@material/react-ripple": "^0.7.1",
+    "closure-react-ripple": "^0.7.1",
     "classnames": "^2.2.5",
     "prop-types": "^15.6.1",
     "react": "^16.4.2"

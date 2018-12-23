@@ -25,6 +25,9 @@ DrawerAppContent.propTypes = {
   className: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 DrawerAppContent.defaultProps = {
   tag: 'div',
   className: '',

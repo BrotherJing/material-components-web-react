@@ -24,8 +24,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import TabIndicator from '@material/react-tab-indicator';
-import {MDCTabFoundation} from '@material/tab/dist/mdc.tab';
+import TabIndicator from 'closure-react-tab-indicator';
+import MDCTabFoundation from '@material/tab/foundation';
 
 import TabRipple from './TabRipple';
 
@@ -209,6 +209,9 @@ Tab.propTypes = {
   previousIndicatorClientRect: PropTypes.object,
 };
 
+/**
+ * @nocollapse
+ */
 Tab.defaultProps = {
   active: false,
   className: '',

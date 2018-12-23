@@ -24,9 +24,9 @@ import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 
-import withRipple from '@material/react-ripple';
+import withRipple from 'closure-react-ripple';
 
-export default class MaterialIcon extends React.Component {
+class MaterialIcon extends React.Component {
   render() {
     const {
       icon,
@@ -77,13 +77,16 @@ const MaterialIconDefault = (props) => {
   );
 };
 
-export const RippleMaterialIcon = withRipple(MaterialIconDefault);
+const RippleMaterialIcon = withRipple(MaterialIconDefault);
 
 MaterialIcon.propTypes = {
   icon: PropTypes.string,
   hasRipple: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 MaterialIcon.defaultProps = {
   icon: '',
   hasRipple: false,
@@ -96,9 +99,15 @@ MaterialIconDefault.propTypes = {
   hasRipple: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 MaterialIconDefault.defaultProps = {
   icon: '',
   className: '',
   initRipple: () => {},
   hasRipple: false,
 };
+
+export default MaterialIcon;
+export {RippleMaterialIcon};

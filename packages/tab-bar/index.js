@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import TabScroller from '@material/react-tab-scroller';
-import {MDCTabBarFoundation} from '@material/tab-bar/dist/mdc.tabBar';
+import TabScroller from 'closure-react-tab-scroller';
+import MDCTabBarFoundation from '@material/tab-bar/foundation';
 
 export default class TabBar extends Component {
   tabBarElement_ = React.createRef();
@@ -160,6 +160,9 @@ TabBar.propTypes = {
   isRtl: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 TabBar.defaultProps = {
   indexInView: 0,
   activeIndex: 0,

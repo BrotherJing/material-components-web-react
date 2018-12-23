@@ -54,6 +54,9 @@ Actions.propTypes = {
   fullBleed: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 Actions.defaultProps = {
   className: '',
   children: null,

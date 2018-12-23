@@ -23,8 +23,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCRadioFoundation} from '@material/radio/dist/mdc.radio';
-import withRipple from '@material/react-ripple';
+import MDCRadioFoundation from '@material/radio/foundation';
+import withRipple from 'closure-react-ripple';
 import NativeControl from './NativeControl';
 
 class Radio extends React.Component {
@@ -144,6 +144,9 @@ Radio.propTypes = {
   children: PropTypes.element.isRequired,
 };
 
+/**
+ * @nocollapse
+ */
 Radio.defaultProps = {
   label: '',
   initRipple: () => {},

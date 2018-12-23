@@ -1,4 +1,4 @@
-import {MDCLinearProgressFoundation} from '@material/linear-progress/dist/mdc.linearProgress';
+import MDCLinearProgressFoundation from '@material/linear-progress/foundation';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -152,6 +152,9 @@ LinearProgress.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 LinearProgress.defaultProps = {
   buffer: 0,
   bufferingDots: true,

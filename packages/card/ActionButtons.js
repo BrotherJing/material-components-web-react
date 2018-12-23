@@ -58,6 +58,9 @@ ActionButtons.propTypes = {
   children: PropTypes.node,
 };
 
+/**
+ * @nocollapse
+ */
 ActionButtons.defaultProps = {
   className: '',
   children: null,

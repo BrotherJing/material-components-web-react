@@ -23,7 +23,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import withRipple from '@material/react-ripple';
+import withRipple from 'closure-react-ripple';
 
 export class TabRipple extends React.Component {
 
@@ -58,6 +58,9 @@ TabRipple.propTypes = {
   unbounded: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 TabRipple.defaultProps = {
   className: '',
   initRipple: () => {},

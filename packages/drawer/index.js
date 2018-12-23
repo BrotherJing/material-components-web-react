@@ -23,8 +23,10 @@
 import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import {MDCDismissibleDrawerFoundation, MDCModalDrawerFoundation, util} from '@material/drawer';
-import {MDCListFoundation} from '@material/list';
+import MDCDismissibleDrawerFoundation from '@material/drawer/dismissible/foundation';
+import MDCModalDrawerFoundation from '@material/drawer/modal/foundation';
+import * as util from '@material/drawer/util';
+import MDCListFoundation from '@material/list/foundation';
 import DrawerHeader from './Header';
 import DrawerContent from './Content';
 import DrawerSubtitle from './Subtitle';
@@ -206,6 +208,9 @@ Drawer.propTypes = {
   modal: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 Drawer.defaultProps = {
   className: '',
   children: null,

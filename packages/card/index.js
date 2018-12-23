@@ -58,6 +58,9 @@ Card.propTypes = {
   outlined: PropTypes.bool,
 };
 
+/**
+ * @nocollapse
+ */
 Card.defaultProps = {
   children: null,
   className: '',
