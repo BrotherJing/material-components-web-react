@@ -2,7 +2,7 @@
  * List
  */
 /* eslint-disable quote-props */
-let defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   className: '',
   nonInteractive: false,
   dense: false,

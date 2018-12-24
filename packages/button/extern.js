@@ -1,4 +1,7 @@
-let defaultProps = { // eslint-disable-line no-unused-vars
+/**
+ * Button
+ */
+defaultProps = {
   raised: false,
   unelevated: false,
   outlined: false,

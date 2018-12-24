@@ -1,6 +1,6 @@
 {
   "name": "closure-react-top-app-bar",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "description": "Material Components React Top App Bar",
   "license": "MIT",
   "main": "dist/index.js",

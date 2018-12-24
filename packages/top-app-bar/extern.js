@@ -1,7 +1,7 @@
 /**
  * TopAppBar
  */
-let defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   actionItems: null,
   className: '',
   fixed: false,

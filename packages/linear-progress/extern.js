@@ -1,7 +1,7 @@
 /**
  * LinearProgress
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   buffer: 0,
   bufferingDots: true,
   className: '',

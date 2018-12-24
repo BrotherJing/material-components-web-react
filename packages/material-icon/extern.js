@@ -1,7 +1,7 @@
 /**
  * MaterialIcon
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   icon: '',
   hasRipple: false,
 };

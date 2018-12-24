@@ -1,7 +1,7 @@
 /**
  * Tab
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   active: false,
   className: '',
   isFadingIndicator: false,

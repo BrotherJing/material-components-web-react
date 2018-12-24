@@ -1,4 +1,7 @@
-let defaultProps = { // eslint-disable-line no-unused-vars
+/**
+ * Ripple
+ */
+defaultProps = {
   unbounded: false,
   disabled: false,
   style: {},

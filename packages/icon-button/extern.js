@@ -1,7 +1,7 @@
 /**
  * IconButtonBase
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   children: '',
   className: '',
   initRipple: () => {},

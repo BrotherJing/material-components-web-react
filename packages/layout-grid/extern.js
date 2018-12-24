@@ -1,7 +1,7 @@
 /**
  * Cell
  */
-let defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   align: undefined,
   children: undefined,
   className: '',

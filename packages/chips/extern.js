@@ -1,7 +1,7 @@
 /**
  * Chip
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   label: '',
   className: '',
   selected: false,

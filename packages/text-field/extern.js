@@ -1,7 +1,7 @@
 /**
  * TextField
  */
-let defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   className: '',
   dense: false,
   floatingLabelClassName: '',

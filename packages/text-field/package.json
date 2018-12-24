@@ -1,6 +1,6 @@
 {
   "name": "closure-react-text-field",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "description": "Material Components React Text Field",
   "license": "MIT",
   "main": "dist/index.js",
@@ -18,9 +18,9 @@
   "dependencies": {
     "@material/textfield": "^0.41.0",
     "classnames": "^2.2.5",
-    "closure-react-floating-label": "^0.7.7",
-    "closure-react-line-ripple": "^0.7.7",
-    "closure-react-notched-outline": "^0.7.7",
+    "closure-react-floating-label": "^0.7.8",
+    "closure-react-line-ripple": "^0.7.8",
+    "closure-react-notched-outline": "^0.7.8",
     "prop-types": "^15.6.1",
     "react": "^16.4.2"
   },

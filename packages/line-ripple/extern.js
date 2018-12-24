@@ -1,4 +1,7 @@
-let defaultProps = { // eslint-disable-line no-unused-vars
+/**
+ * LineRipple
+ */
+defaultProps = {
   className: '',
   style: {},
   active: false,

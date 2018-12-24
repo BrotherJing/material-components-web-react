@@ -1,4 +1,7 @@
-let defaultProps = { // eslint-disable-line no-unused-vars
+/**
+ * FloatingLabel
+ */
+defaultProps = {
   className: '',
   handleWidthChange: () => {},
   float: false,

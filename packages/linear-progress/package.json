@@ -1,6 +1,6 @@
 {
   "name": "closure-react-linear-progress",
-  "version": "0.7.1",
+  "version": "0.7.8",
   "description": "Material Components React Linear Progress",
   "license": "MIT",
   "main": "dist/index.js",

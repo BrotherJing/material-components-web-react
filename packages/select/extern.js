@@ -1,7 +1,7 @@
 /**
  * Select
  */
-let defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   box: false,
   className: '',
   disabled: false,

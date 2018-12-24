@@ -1,7 +1,7 @@
 /**
  * Radio
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   label: '',
   initRipple: () => {},
   className: '',

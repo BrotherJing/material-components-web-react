@@ -1,7 +1,7 @@
 /**
  * Fab
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   mini: false,
   icon: null,
   textLabel: '',

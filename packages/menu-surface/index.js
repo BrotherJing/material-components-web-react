@@ -23,8 +23,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import MDCMenuSurfaceFoundation from '@material/menu-surface/foundation';
-import Corner from '@material/menu-surface/constants';
+import {MDCMenuSurfaceFoundation} from '@material/menu-surface/foundation';
+import {Corner} from '@material/menu-surface/constants';
 
 class MenuSurface extends React.Component {
 

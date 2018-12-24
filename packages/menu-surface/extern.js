@@ -1,7 +1,7 @@
 /**
  * MenuSurface
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   className: '',
   styles: {},
   anchorElement: null,

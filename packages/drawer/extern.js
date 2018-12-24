@@ -1,7 +1,7 @@
 /**
  * Drawer
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   className: '',
   children: null,
   open: false,

@@ -1,7 +1,7 @@
 /**
  * TabScroller
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   alignStart: false,
   alignEnd: false,
   alignCenter: false,

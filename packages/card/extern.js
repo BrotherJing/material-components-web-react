@@ -1,7 +1,7 @@
 /**
  * Card
  */
-defaultProps = { // eslint-disable-line no-unused-vars
+defaultProps = {
   children: null,
   className: '',
   outlined: false,

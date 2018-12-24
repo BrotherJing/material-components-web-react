@@ -1,6 +1,6 @@
 {
   "name": "closure-react-card",
-  "version": "0.7.1",
+  "version": "0.7.8",
   "description": "Material Components React Card",
   "license": "MIT",
   "main": "dist/index.js",
@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@material/card": "^0.41.0",
-    "closure-react-ripple": "^0.7.1",
     "classnames": "^2.2.5",
+    "closure-react-ripple": "^0.7.8",
     "prop-types": "^15.6.1",
     "react": "^16.4.2"
   },
