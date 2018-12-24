@@ -1,6 +1,6 @@
 {
   "name": "closure-react-ripple",
-  "version": "0.7.6",
+  "version": "0.7.7",
   "description": "Material Components React Ripple",
   "license": "MIT",
   "main": "dist/index.js",

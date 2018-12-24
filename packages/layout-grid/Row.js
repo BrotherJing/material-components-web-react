@@ -23,6 +23,9 @@ Row.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 Row.defaultProps = {
   className: '',
   tag: 'div',

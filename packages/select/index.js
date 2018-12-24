@@ -23,11 +23,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-import {MDCSelectFoundation} from '@material/select/dist/mdc.select';
+import MDCSelectFoundation from '@material/select/foundation';
 
-import FloatingLabel from '@material/react-floating-label';
-import LineRipple from '@material/react-line-ripple';
-import NotchedOutline from '@material/react-notched-outline';
+import FloatingLabel from 'closure-react-floating-label';
+import LineRipple from 'closure-react-line-ripple';
+import NotchedOutline from 'closure-react-notched-outline';
 import NativeControl from './NativeControl';
 
 export default class Select extends React.Component {
@@ -277,6 +277,9 @@ Select.propTypes = {
   ]),
 };
 
+/**
+ * @nocollapse
+ */
 Select.defaultProps = {
   box: false,
   className: '',

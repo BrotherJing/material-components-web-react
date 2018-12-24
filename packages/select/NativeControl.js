@@ -127,6 +127,9 @@ NativeControl.propTypes = {
   ]),
 };
 
+/**
+ * @nocollapse
+ */
 NativeControl.defaultProps = {
   className: '',
   children: null,

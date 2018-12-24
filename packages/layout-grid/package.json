@@ -1,6 +1,6 @@
 {
-  "name": "@material/react-layout-grid",
-  "version": "0.7.1",
+  "name": "closure-react-layout-grid",
+  "version": "0.7.7",
   "description": "Material Components React Layout Grid",
   "license": "MIT",
   "main": "dist/index.js",

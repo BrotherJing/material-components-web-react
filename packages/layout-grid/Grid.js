@@ -30,6 +30,9 @@ Grid.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 Grid.defaultProps = {
   align: undefined,
   className: '',

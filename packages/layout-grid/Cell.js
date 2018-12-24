@@ -44,6 +44,9 @@ Cell.propTypes = {
   tag: PropTypes.string,
 };
 
+/**
+ * @nocollapse
+ */
 Cell.defaultProps = {
   align: undefined,
   children: undefined,
