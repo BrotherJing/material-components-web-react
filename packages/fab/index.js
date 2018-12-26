@@ -24,7 +24,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import withRipple from 'closure-react-ripple';
+import withRipple from 'closure-react-ripple/index';
 
 export class Fab extends React.Component {
 

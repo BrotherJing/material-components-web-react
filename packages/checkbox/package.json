@@ -1,6 +1,6 @@
 {
   "name": "closure-react-checkbox",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "description": "Material Components React Checkbox",
   "license": "MIT",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   "dependencies": {
     "@material/checkbox": "^0.41.0",
     "classnames": "^2.2.5",
-    "closure-react-ripple": "^0.7.8",
+    "closure-react-ripple": "^0.7.9",
     "prop-types": "^15.6.1",
     "react": "^16.3.2"
   },

@@ -1,6 +1,6 @@
 {
   "name": "closure-react-tab-bar",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "description": "Material Components React Tab Bar",
   "license": "Apache-2.0",
   "main": "dist/index.js",
@@ -19,7 +19,7 @@
   "dependencies": {
     "@material/tab-bar": "^0.41.0",
     "classnames": "^2.2.5",
-    "closure-react-tab-scroller": "^0.7.8",
+    "closure-react-tab-scroller": "^0.7.9",
     "prop-types": "^15.6.1",
     "react": "^16.3.2"
   },

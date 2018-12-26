@@ -1,6 +1,6 @@
 {
   "name": "closure-react-select",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "description": "Material Components React Select",
   "license": "MIT",
   "main": "dist/index.js",
@@ -17,9 +17,9 @@
   "dependencies": {
     "@material/select": "^0.40.1",
     "classnames": "^2.2.5",
-    "closure-react-floating-label": "^0.7.8",
-    "closure-react-line-ripple": "^0.7.8",
-    "closure-react-notched-outline": "^0.7.8",
+    "closure-react-floating-label": "^0.7.9",
+    "closure-react-line-ripple": "^0.7.9",
+    "closure-react-notched-outline": "^0.7.9",
     "prop-types": "^15.6.1",
     "react": "^16.4.2"
   },

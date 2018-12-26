@@ -24,7 +24,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import MDCRadioFoundation from '@material/radio/foundation';
-import withRipple from 'closure-react-ripple';
+import withRipple from 'closure-react-ripple/index';
 import NativeControl from './NativeControl';
 
 class Radio extends React.Component {

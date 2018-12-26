@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import TabScroller from 'closure-react-tab-scroller';
+import TabScroller from 'closure-react-tab-scroller/index';
 import MDCTabBarFoundation from '@material/tab-bar/foundation';
 
 export default class TabBar extends Component {

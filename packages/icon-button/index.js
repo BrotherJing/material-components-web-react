@@ -23,7 +23,7 @@
 import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
-import withRipple from 'closure-react-ripple';
+import withRipple from 'closure-react-ripple/index';
 import MDCIconButtonToggleFoundation from '@material/icon-button/foundation';
 import IconToggle from './IconToggle';
 

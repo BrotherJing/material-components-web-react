@@ -24,7 +24,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import TabIndicator from 'closure-react-tab-indicator';
+import TabIndicator from 'closure-react-tab-indicator/index';
 import MDCTabFoundation from '@material/tab/foundation';
 
 import TabRipple from './TabRipple';

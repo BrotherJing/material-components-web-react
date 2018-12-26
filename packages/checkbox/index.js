@@ -24,7 +24,7 @@ import React, {Component} from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import MDCCheckboxFoundation from '@material/checkbox/foundation';
-import withRipple from 'closure-react-ripple';
+import withRipple from 'closure-react-ripple/index';
 
 import NativeControl from './NativeControl';
 

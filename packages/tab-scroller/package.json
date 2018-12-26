@@ -1,6 +1,6 @@
 {
   "name": "closure-react-tab-scroller",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "description": "Material Components React Tab Scroller",
   "license": "MIT",
   "main": "dist/index.js",
